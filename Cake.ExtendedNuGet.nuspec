@@ -17,8 +17,12 @@
       <tags>Cake Script Build</tags>
    </metadata>
 
-   <files>
-      <file src="./Cake.ExtendedNuGet/bin/Release/Cake.ExtendedNuGet.dll" target="lib/net46" />
-      <file src="./Cake.ExtendedNuGet/bin/Release/Cake.ExtendedNuGet.xml" target="lib/net46" />      
+   <files >
+      <file src="./Cake.ExtendedNuGet/bin/Release/net45/Cake.ExtendedNuGet.dll" target="lib/net45" />
+      <file src="./Cake.ExtendedNuGet/bin/Release/net45/Cake.ExtendedNuGet.xml" target="lib/net45" />
+     <file src="./Cake.ExtendedNuGet/bin/Release/net46/Cake.ExtendedNuGet.dll" target="lib/net46" />
+     <file src="./Cake.ExtendedNuGet/bin/Release/net46/Cake.ExtendedNuGet.xml" target="lib/net46" />
+     <file src="./Cake.ExtendedNuGet/bin/Release/net46/Cake.ExtendedNuGet.dll" target="lib/net46" />
+     <file src="./Cake.ExtendedNuGet/bin/Release/net46/Cake.ExtendedNuGet.xml" target="lib/net46" />
    </files>
 </package>
